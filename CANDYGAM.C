@@ -76,5 +76,45 @@ delay(250);
 goto start;
 }//end of main
 
-
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login Page</title>
+  <style>
+    /* Add any CSS styling you need here */
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 50px;
+    }
+    .login-container {
+      max-width: 300px;
+      margin: 0 auto;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    input[type="text"], input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      margin: 5px 0 20px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+    }
+  </style>
+</head>
+<body>
+  <div class="login-container">
+    <h2>Login</h2>
+    <form action="#" method="post">
+      <label for="username">Username:</label><br>
+      <input type="text" id="username" name="username"><br>
+      <label for="password">Password:</label><br>
+      <input type="password" id="password" name="password"><br><br>
+      <input type="submit" value="Login">
+    </form>
+  </div>
+</body>
+</html>
 
